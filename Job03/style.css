@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    margin: 2% auto 2% auto;
+    width: 450px; 
+    height: 250px;
+    background-color: #88c1d0; 
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1600px) {
+    .box {
+        width: 350px; 
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .box {
+        width: 500px; 
+    }
+}
